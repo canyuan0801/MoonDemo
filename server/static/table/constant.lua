@@ -2,7 +2,7 @@
 local constant = {
     room = {
         --- 匹配人数达到100就创建房间
-        max_player_number = 100,
+        max_player_number = 1,
         --- 每局持续60s
         round_time = 60,
     },

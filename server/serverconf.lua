@@ -1,12 +1,10 @@
 local db_redis = {
-    [1] = {host = "127.0.0.1", port = 6379, timeout = 1000},
-    [2] = {host = "127.0.0.1", port = 6379, timeout = 1000}
+    [1] = {host = "124.222.223.217", port = 6379, timeout = 1000},
 }
 
 ---注意:修改你的数据库名
 local db_pg = {
-    [1] = { user = "postgres", database = "postgres", password = "123456", host = "127.0.0.1", port = 5432, connect_timeout = 1000 },
-    [2] = { user = "postgres", database = "postgres", password = "123456", host = "127.0.0.1", port = 5432, connect_timeout = 1000 },
+    [1] = { user = "root", database = "moon_demo", password = "fojiaoshisanjing", host = "124.222.223.217", port = 3306, connect_timeout = 1000 },
 }
 
 ---服务器相关配置

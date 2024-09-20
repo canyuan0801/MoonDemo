@@ -16,6 +16,7 @@ if _G["__init__"] then
     }
 end
 
+require("common.LuaPanda").start("127.0.0.1",8818)
 local moon = require("moon")
 local json = require("json")
 local uuid = require("uuid")
