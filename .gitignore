@@ -1,4 +1,6 @@
 server/.vscode/settings.json
 server/log/*.log
 BallAction/Logs
+BallAction/
 .idea/
+.vscode/
