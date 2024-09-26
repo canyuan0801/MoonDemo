@@ -75,10 +75,10 @@ local function run(node_conf)
             unique = true,
             name = "db_game",
             file = "moon/service/sqldriver.lua",
-            provider = "moon.db.pg",
+            provider = "moon.db.mysql",
             threadid = 2,
             poolsize = 5,
-            opts = db_conf.pg
+            opts = db_conf.mysql
         },
         {
             unique = true,
