@@ -98,6 +98,10 @@ if moon.queryservice("db_game") > 0 then
             return false, table.tostring(res)
         end
 
+        if (res.data == nil) then
+            return false, table.tostring(res)
+        end
+
         local row = res.data[1]
         if row then
             return jdecode(row.data)
